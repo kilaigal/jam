@@ -20,6 +20,7 @@ Virtual Environment
 .. code-block:: console
 
     source .venv/bin/activate
+    .venv\Scripts/activate  # Windows
 
 
 Dependencies

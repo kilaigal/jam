@@ -49,7 +49,7 @@ def write_to_root_requirements(reqs):
     custom_env['PATH'] = custom_env['PATH'] + ':' + VENV_PATH
     custom_env['CUSTOM_COMPILE_COMMAND'] = CUSTOM_COMPILE_COMMAND
 
-    with tempfile.NamedTemporaryFile() as inp:
+    with tempfile.NamedTemporaryFile(delete=False) as inp:
         inp.write('\n'.join(reqs).encode('utf-8'))
         inp.flush()
 
@@ -62,6 +62,11 @@ def write_to_root_requirements(reqs):
              inp.name],
             env=custom_env,
         )
+        try:
+            inp.close()
+            os.unlink(inp.name)
+        except Exception:
+            pass
 
 
 if __name__ == "__main__":
