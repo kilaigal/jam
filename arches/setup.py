@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # ~*~ encoding: utf-8 ~*~
-"""setup.py for flap.hummer."""
+"""setup.py for jam.arches."""
 
 # import built-in
 import os
@@ -13,10 +13,10 @@ from setuptools import setup, find_packages
 here = os.path.abspath(os.path.dirname(__file__))
 
 
-PROJECT = 'flap.hummer'
+PROJECT = 'jam.arches'
 VERSION = '0.1.0'
 URL = ''
-DESC = "flap hummer"
+DESC = "jam arches"
 
 
 def read_file(file_name):
@@ -41,7 +41,7 @@ setup(
     url=URL,
     license=read_file('LICENSE'),
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests", "doc"]),
-    namespace_packages=[u'flap'],
+    namespace_packages=[u'jam'],
     include_package_data=True,
     install_requires=parse_requirements("requirements.txt"),
     zip_safe=False,

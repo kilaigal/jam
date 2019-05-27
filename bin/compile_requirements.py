@@ -10,7 +10,7 @@ import tempfile
 
 from codecs import open
 
-CUSTOM_COMPILE_COMMAND = 'tox -e flap'
+CUSTOM_COMPILE_COMMAND = 'tox -e jam'
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 REQUIREMENTS_FILENAME = 'requirements.txt'
 VENV_PATH = os.path.join(ROOT_PATH, '.venv/bin/')

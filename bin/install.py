@@ -20,5 +20,5 @@ def install_pkg(pkg_name):
 
 
 if __name__ == '__main__':
-    for this_pkg in {'hummer'}:
+    for this_pkg in {'arches'}:
         install_pkg(this_pkg)

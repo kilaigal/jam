@@ -1,0 +1,2 @@
+py-midicsv~=1.9
+tensorflow~=2.0.0a0

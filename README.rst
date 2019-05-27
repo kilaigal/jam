@@ -1,15 +1,17 @@
 ====
-Flap
+Jam
 ====
+
+Let's make music.
 
 Setup
 -----
 
 .. code-block:: console
 
-  git clone https://github.com/kilaigal/flap.git
-  cd flap
-  tox -e flap
+  git clone https://github.com/kilaigal/jam.git
+  cd jam
+  tox -e jam
 
 If :code:`tox` is missing, run :code:`pip install tox`
 
@@ -26,4 +28,4 @@ Virtual Environment
 Dependencies
 ------------
 
-Add package level dependencies to :code:`flap/<package_name>/requirements` and re-run :code:`tox -e flap` to compile and install
+Add package level dependencies to :code:`jam/<package_name>/requirements` and re-run :code:`tox -e jam` to compile and install
