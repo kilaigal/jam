@@ -1,5 +1,5 @@
 # just enough to get pip and other install dependencies running
-pip==19.1.1
+pip==19.2
 wheel==0.33.4
 pip-tools==3.7.0
 subprocess32==3.5.3
