@@ -18,7 +18,7 @@ protobuf==3.7.1           # via tb-nightly, tensorflow
 py-midicsv==1.9.0
 six==1.12.0               # via absl-py, grpcio, h5py, keras-preprocessing, protobuf, tb-nightly, tensorflow
 tb-nightly==1.14.0a20190301  # via tensorflow
-tensorflow==2.0.0a0
+tensorflow==2.5.3
 termcolor==1.1.0          # via tensorflow
 tf-estimator-nightly==1.14.0.dev2019030115  # via tensorflow
 werkzeug==0.15.4          # via tb-nightly
