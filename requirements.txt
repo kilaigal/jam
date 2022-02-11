@@ -14,7 +14,7 @@ keras-applications==1.0.7  # via tensorflow
 keras-preprocessing==1.0.9  # via tensorflow
 markdown==3.1.1           # via tb-nightly
 numpy==1.16.3             # via h5py, keras-applications, keras-preprocessing, tb-nightly, tensorflow
-protobuf==3.7.1           # via tb-nightly, tensorflow
+protobuf==3.15.0           # via tb-nightly, tensorflow
 py-midicsv==1.9.0
 six==1.12.0               # via absl-py, grpcio, h5py, keras-preprocessing, protobuf, tb-nightly, tensorflow
 tb-nightly==1.14.0a20190301  # via tensorflow
