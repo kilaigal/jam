@@ -22,4 +22,4 @@ tensorflow==2.0.0a0
 termcolor==1.1.0          # via tensorflow
 tf-estimator-nightly==1.14.0.dev2019030115  # via tensorflow
 werkzeug==0.15.4          # via tb-nightly
-wheel==0.33.4             # via tb-nightly, tensorflow
+wheel==0.38.1             # via tb-nightly, tensorflow
